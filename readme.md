@@ -10,8 +10,11 @@
 ## Install proyect
 
 Configure your .env file and run the next commands:
+
 -composer install
+
 -php artisan migrate:refresh --seed
+
 -php artisan serve
 
 
