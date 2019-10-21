@@ -24,7 +24,7 @@ User Api Resources
 
 *if all is well all routes return you a ['succes'=>true]
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 Store
 
@@ -43,7 +43,7 @@ Parameters: 'username' => 'required|unique:users',
             
 Url:localhost:8000/api/users
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 Index 
 
@@ -55,7 +55,7 @@ Parameters: none
 
 Url:localhost:8000/api/users
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 Update 
 
@@ -72,7 +72,7 @@ Parameters: 'names' => 'min:2|max:191',
             
 Url:localhost:8000/api/users/{user_id}
 
-<!-----------------  ------------------>
+-----------------  -----------------
 
 Show 
 
@@ -84,7 +84,7 @@ Parameters: none
 
 Url:localhost:8000/api/users/{user_id}
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 Destroy 
 
@@ -96,7 +96,7 @@ Parameters: none
 
 Url:localhost:8000/api/users/{user_id}
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 GetByRole 
 
@@ -108,7 +108,7 @@ Parameters:  'role' => ['required',Rule::in(['administrador','operador','desarro
 
 Url:localhost:8000/api/u/role
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 GetByPermission 
 
@@ -120,7 +120,7 @@ Parameters:  'permission' => ['required',Rule::in(['create','read','update','del
 
 Url:localhost:8000/api/u/permission
 
-<!-----------------  ------------------>
+-----------------  ------------------
 
 GetByStatus 
 
